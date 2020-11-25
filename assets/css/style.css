@@ -252,6 +252,10 @@ hr {
 	padding-bottom: 0;
 }
 
+.section--gray {
+	background-color: #f8f8f8;
+}
+
 .section__header {
 	width: 100%;
 	max-width: 950px;
@@ -509,10 +513,12 @@ hr {
 .accordion__content {
 	color: #999;
 	display: none;
-	padding: 10px 20px;
+	padding: 10px 55px 10px 20px;
 
 	font-size: 15px;
 	font-family: 'Roboto', sans-serif;
 	font-style: italic;
 	font-weight: 300;
 }
+
+
