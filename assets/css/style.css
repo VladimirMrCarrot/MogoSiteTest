@@ -258,6 +258,11 @@ hr {
 	padding: 70px 0;
 }
 
+.section--clients {
+	background: url("/assets/images/clients/bg.jpg") center no-repeat;
+	background-size: cover;
+}
+
 .section__header {
 	width: 100%;
 	max-width: 950px;
@@ -556,13 +561,15 @@ hr {
 }
 
 .reviews__item {
-	padding-left: 205px; 
+	padding-left: 255px; 
 	position: relative;
 }
 
 .reviews__icon {
+	border-radius: -50%;
+	
 	position: absolute;
-	top: 0;
+	top: -20px;
 	left: 0;
 	z-index: 1;
 }
@@ -729,3 +736,62 @@ hr {
 }
 
 /*Clients*/
+.clients {
+	display: flex;
+	margin-top: 70px;
+	flex-wrap: wrap;
+}
+
+.clients__item {
+	width: 50%;
+	margin-bottom: 60px;
+	padding: 0 45px 0 175px;
+	position: relative;
+}
+
+.clients__img {
+	width: 110px;
+	height: 110px;
+
+	border-radius: 50%;
+
+	position: absolute;
+	top: 0;
+	left: 40px;
+	z-index: 1;
+}
+
+.clients__name {
+	margin-bottom: 5px;
+
+	color: #333;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.clients__prof {
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	font-style: italic;
+	font-weight: 300;
+
+	color: #333;
+}
+
+.clients__text {
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+
+	color: #999;
+}
+
+.clients__text:before {
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	margin: 15px 0;
+
+	background-color: #f38181;
+}
