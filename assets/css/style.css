@@ -1087,6 +1087,14 @@ hr {
 	border-bottom: 1px solid #fff;
 
 	width: 32.33333%;
+
+	transition: opacity .2s linear;
+}
+
+.instagram__item:hover {
+	background-color: #95e1d3;
+	opacity: .5;
+
 }
 
 .instagram__item img {
